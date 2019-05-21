@@ -1,12 +1,14 @@
+server:
+  port: 8081
+
 
 spring:
   rabbitmq:
     username: guest
     password: guest
     addresses: 127.0.0.1:5672
-    publisher-confirms: true # 开启确认消息是否到达交换器，需要设置 true
-    publisher-returns: true # 开启确认消息是否到达队列，需要设置 true
-    virtual-host: /
+    
+
 
 
 
